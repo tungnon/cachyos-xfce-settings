@@ -8,6 +8,7 @@ url="https://github.com/tungnon/$pkgname"
 license=('GPL')
 makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/heads/develop.tar.gz")
+sha512sums=('SKIP')
 depends=(
 	# XFCE Packages
 	'exo'
