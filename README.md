@@ -49,7 +49,7 @@ Thank you for using CachyOS XFCE Settings. We hope you enjoy desktop that stays 
 - engrampa
 - font-manager
 ### Only font that would be shipped here
-- noto-fonts'             
+- noto-fonts             
 ### Basic ricing stuff
 - cachyos-wallpapers
 - papirus-icon-theme
