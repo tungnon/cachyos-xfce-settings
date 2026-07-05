@@ -1,4 +1,4 @@
-## cachyos-xfce-settings
+# cachyos-xfce-settings
 
 CachyOS xfce4 settings
 
@@ -7,3 +7,24 @@ CachyOS xfce4 settings
 This repository contains configuration files for various programs and tools used in the CachyOS XFCE operating system. Feel free to customize your system from these configurations!
 
 Thank you for using CachyOS XFCE Settings. We hope you enjoy your stable desktop!
+
+## Dependencies
+- noto-fonts
+- xfce4
+- xfce4-whiskermenu-plugin
+- xfce4-docklike-plugin
+- thunar-archive-plugin
+- thunar-media-tags-plugin
+- tumbler
+- ristretto
+- parole
+- mousepad
+- mugshot
+- mate-calc
+- engrampa
+- font-manager
+- cachyos-wallpapers
+- papirus-icon-theme
+- lightdm
+- lightdm-gtk-greeter
+- xorg-xwayland

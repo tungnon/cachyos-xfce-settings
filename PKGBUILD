@@ -29,7 +29,6 @@ depends=(
     'papirus-icon-theme'
     'lightdm'
     'lightdm-gtk-greeter'
-    'xorg-xserver'
     'xorg-xwayland'
 )
 install=$pkgname.install
