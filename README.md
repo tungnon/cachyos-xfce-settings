@@ -6,7 +6,7 @@ CachyOS xfce4 settings
 
 This repository contains configuration files for various programs and tools used in the CachyOS XFCE operating system. Feel free to customize your system from these configurations!
 
-Thank you for using CachyOS XFCE Settings. We hope you enjoy desktop that stays for yours without a surprise!
+Thank you for using CachyOS XFCE Settings. We hope you enjoy desktop that stays for years without a surprise!
 
 ## Dependencies
 - noto-fonts
