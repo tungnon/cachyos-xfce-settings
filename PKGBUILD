@@ -13,6 +13,7 @@ depends=(
     'xfce4'
     'xfce4-whiskermenu-plugin'
     'xfce4-docklike-plugin'
+    'xfce4-screenshooter'
     'thunar'
     'thunar-archive-plugin'
     'thunar-media-tags-plugin'

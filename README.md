@@ -13,6 +13,7 @@ Thank you for using CachyOS XFCE Settings. We hope you enjoy desktop that stays 
 - xfce4
 - xfce4-whiskermenu-plugin
 - xfce4-docklike-plugin
+- xfce4-screenshooter
 - thunar-archive-plugin
 - thunar-media-tags-plugin
 - tumbler
