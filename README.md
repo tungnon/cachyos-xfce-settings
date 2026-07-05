@@ -35,7 +35,6 @@ Thank you for using CachyOS XFCE Settings. We hope you enjoy desktop that stays 
 - xfce4-pulseaudio-plugin
 - xfce4-clipman-plugin
 - xfce4-xkb-plugin
-- xfce4-battery-plugin
 ### Default XFCE Apps
 - xfce4-screenshooter
 - xfce4-screensaver

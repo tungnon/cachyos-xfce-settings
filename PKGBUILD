@@ -35,7 +35,6 @@ depends=(
 	'xfce4-pulseaudio-plugin'
 	'xfce4-clipman-plugin'
 	'xfce4-xkb-plugin'
-	'xfce4-battery-plugin'
     # Default XFCE Apps
     'ristretto'
     'parole'
