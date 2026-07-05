@@ -16,6 +16,7 @@
         <value type="int" value="5"/>
         <value type="int" value="12"/>
         <value type="int" value="3"/>
+        <value type="int" value="2"/>
         <value type="int" value="16"/>
         <value type="int" value="17"/>
         <value type="int" value="6"/>
@@ -68,6 +69,7 @@
         <value type="string" value="com.shellyorg.shelly.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="io.github.kolunmi.Bazaar.desktop"/>
         <value type="string" value="org.bluesabre.Mugshot.desktop"/>
         <value type="string" value="engrampa.desktop"/>
         <value type="string" value="mate-calc.desktop"/>
@@ -88,5 +90,6 @@
       <property name="display-type" type="uint" value="2"/>
     </property>
     <property name="plugin-1" type="string" value="notification-plugin"/>
+    <property name="plugin-2" type="string" value="xfce4-clipman-plugin"/>
   </property>
 </channel>
