@@ -1,9 +1,7 @@
-# Maintainer: Vladislav Nepogodin <nepogodin.vlad@gmail.com>
-# Contributor: SoulHarsh007 <admin@soulharsh007.dev>
-
+# Maintainer: Tungnon <tungnon67>
 pkgname=cachyos-xfce-settings
 pkgdesc='CachyOS XFCE settings'
-pkgver=1.0.9
+pkgver=2.0.0
 pkgrel=1
 arch=('any')
 url="https://github.com/cachyos/$pkgname"
@@ -11,21 +9,29 @@ license=('GPL')
 makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
 sha512sums=('d4a530abb6aaf067c8ec9a2fc8bebb9ffdc2fae8cfb2623ce6baf27273e0c142738f7226a55d2f39785d4da5b9cc5da975a1e99c8f7ddabb464b2ae8d1b0d8e6')
-depends=('cachyos-zsh-config'
-    'cachyos-alacritty-config'
-    'nerd-fonts-fantasque-sans-mono'
+depends=(
     'noto-fonts'
-    'ttf-fira-sans'
-    'kvantum-qt5'
-    'qt5ct'
+    'xfce4'
     'xfce4-whiskermenu-plugin'
+    'xfce4-docklike-plugin'
     'thunar'
-    'char-white'
-    'qogir-icon-theme'
-    'capitaine-cursors'
+    'thunar-archive-plugin'
+    'thunar-media-tags-plugin'
+    'tumbler'
+    'ristretto'
+    'parole'
+    'mousepad'
+    'mugshot'
+    'mate-calc'
+    'engrampa'
+    'font-manager'
     'cachyos-wallpapers'
-    'kvantum-theme-nordic-git'
-    'cachyos-nord-gtk-theme-git')
+    'papirus-icon-theme'
+    'lightdm'
+    'lightdm-gtk-greeter'
+    'xorg-xserver'
+    'xorg-xwayland'
+)
 install=$pkgname.install
 provides=('cachyos-desktop-settings')
 conflicts=('cachyos-desktop-settings')

@@ -5,9 +5,10 @@ generate_lightdm_greeter_config() {
 
     cat << 'EOF' > /etc/lightdm/lightdm-gtk-greeter.conf
 [greeter]
-theme-name = cachyos-nord
-icon-theme-name = Qogir
-background = /usr/share/wallpapers/cachyos-wallpapers/Dimensions.png
+theme-name = WhiteSur-Dark
+icon-theme-name = Papirus-Dark
+cursor-theme-name = Bibata-Modern-Ice
+background=/usr/share/wallpapers/cachyos-wallpapers/north.png 
 EOF
 }
 
