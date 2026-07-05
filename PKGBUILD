@@ -31,14 +31,12 @@ depends=(
     'xorg-xwayland'
 )
 
-backup=('etc/lightdm/lightdm-gtk-greeter.conf')
-
 provides=('cachyos-desktop-settings')
 conflicts=('cachyos-desktop-settings')
 
 package() {
-    install -d $pkgdir/etc
-    cp -rf $srcdir/$pkgname-$pkgver/etc $pkgdir
-    install -d $pkgdir/usr
-    cp -rf $srcdir/$pkgname-$pkgver/usr $pkgdir
+    install -d "$pkgdir/etc"
+    cp -rf "$srcdir/$pkgname-develop/etc" "$pkgdir"
+    install -d "$pkgdir/usr"
+    cp -rf "$srcdir/$pkgname-develop/usr" "$pkgdir"
 }
