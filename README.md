@@ -63,9 +63,10 @@ default xfce themes, icons, and cursor are still shipped by they won't be presen
 - engrampa
 - font-manager
 - lightdm-gtk-greeter-settings
-## Network/Bluetooth stuff
 - network-manager-applet
 - blueman
+## Backends
+- gnome-keyring
 - bluez
 - bluez-utils
 ### Only font that would be shipped here

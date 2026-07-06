@@ -48,9 +48,10 @@ depends=(
     'engrampa'
     'font-manager'
     'lightdm-gtk-greeter-settings'
-    # Network/Bluetooth stuff
     'network-manager-applet'
     'blueman'
+    # Network/Bluetooth stuff
+    'gnome-keyring'
     'bluez'
     'bluez-utils'
     # Only font that would be shipped here
