@@ -54,7 +54,6 @@
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-date-font" type="string" value="Sans 8"/>
       <property name="digital-time-font" type="string" value="Sans 12"/>
-      <property name="timezone" type="string" value="Asia/Bangkok"/>
     </property>
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
