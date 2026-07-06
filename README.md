@@ -14,14 +14,15 @@ default xfce themes, icons, and cursor are still shipped by they won't be presen
 - icon theme: **papirus-dark** - papirus-light and papirus are also available
 - cursor: **bibata-modern-ice** - bibata-modern-classic is also available
 
-## Limits
-- libadwaita apps still flashbang users, but this is rather xfce hard limit with gnome apps than the dots, it's possible to ship hacks to fix it but I decided it is not worth it
-- lightdm stays untouched because that thing can be fragile but users are free to config it easily with`lightdm-gtk-greeter-setting` GUI
+## Additional changes
+Some minor changes are applied to improve QoL by default
+
+## Limit
+lightdm stays untouched because that thing can be fragile but users are free to config it easily with`lightdm-gtk-greeter-setting` GUI
 
 ## To-Do-List
 - testing on real hardware for possible edge cases
 - waiting for xfwl integration on upstream arch
-- optional: fixing libadwaita flashbang
 
 ## Dependencies
 ### XFCE Packages
