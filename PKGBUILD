@@ -48,7 +48,7 @@ depends=(
     'engrampa'
     'font-manager'
     # Network/Bluetooth stuff
-    'nm-applet'
+    'network-manager-applet'
     'blueman'
     'bluez'
     'bluez-utils'
