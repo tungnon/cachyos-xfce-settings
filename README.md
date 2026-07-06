@@ -47,6 +47,8 @@ Thank you for using CachyOS XFCE Settings. We hope you enjoy desktop that stays 
 - mate-calc
 - engrampa
 - font-manager
+- nm-applet
+- blueman
 ### Only font that would be shipped here
 - noto-fonts             
 ### Basic ricing stuff

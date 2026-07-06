@@ -43,10 +43,15 @@ depends=(
     'xfce4-screensaver'
     'xfce4-taskmanager'
     'mugshot'
-    # Other Apps (better than XFCE defaults)
+    # Other Apps
     'mate-calc'
     'engrampa'
     'font-manager'
+    # Network/Bluetooth stuff
+    'nm-applet'
+    'blueman'
+    'bluez'
+    'bluez-utils'
     # Only font that would be shipped here
     'noto-fonts'             
 	# Ricing stuff
