@@ -47,6 +47,7 @@ Thank you for using CachyOS XFCE Settings. We hope you enjoy desktop that stays 
 - mate-calc
 - engrampa
 - font-manager
+- lightdm-gtk-greeter-settings
 ## Network/Bluetooth stuff
 - network-manager-applet
 - blueman

@@ -47,6 +47,7 @@ depends=(
     'mate-calc'
     'engrampa'
     'font-manager'
+    'lightdm-gtk-greeter-settings'
     # Network/Bluetooth stuff
     'network-manager-applet'
     'blueman'
