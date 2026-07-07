@@ -53,7 +53,6 @@
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-date-font" type="string" value="Sans 8"/>
       <property name="digital-time-font" type="string" value="Sans 12"/>
-      <property name="timezone" type="string" value="Asia/Bangkok"/>
     </property>
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -67,16 +66,6 @@
         <value type="string" value="cachyos-hello.desktop"/>
         <value type="string" value="com.shellyorg.shelly.desktop"/>
       </property>
-      <property name="recent" type="array">
-        <value type="string" value="xfce4-screensaver-preferences.desktop"/>
-        <value type="string" value="io.github.kolunmi.Bazaar.desktop"/>
-        <value type="string" value="org.bluesabre.Mugshot.desktop"/>
-        <value type="string" value="engrampa.desktop"/>
-        <value type="string" value="mate-calc.desktop"/>
-        <value type="string" value="lightdm-gtk-greeter-settings.desktop"/>
-        <value type="string" value="org.xfce.mousepad.desktop"/>
-      </property>
-      <property name="button-icon" type="string" value="cachyos"/>
     </property>
     <property name="plugin-12" type="string" value="docklike"/>
     <property name="plugin-15" type="string" value="showdesktop">
