@@ -33,7 +33,6 @@ depends=(
 	'xfce4-whiskermenu-plugin'
 	'xfce4-docklike-plugin'
 	'xfce4-pulseaudio-plugin'
-	'xfce4-clipman-plugin'
 	'xfce4-xkb-plugin'
     # Default XFCE Apps
     'ristretto'

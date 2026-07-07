@@ -49,7 +49,6 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 - xfce4-whiskermenu-plugin
 - xfce4-docklike-plugin
 - xfce4-pulseaudio-plugin
-- xfce4-clipman-plugin
 - xfce4-xkb-plugin
 ### Default XFCE Apps
 - xfce4-screenshooter
