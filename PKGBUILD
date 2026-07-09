@@ -21,7 +21,7 @@ depends=(
 	'xfce4-terminal'
 	'xfconf'
 	'xfdesktop'
-	'xfwm4'
+	'xfwm4' # will be removed after xfwl is ready
 	# Thunar stuff
 	'thunar'
 	'thunar-volman'
@@ -59,8 +59,7 @@ depends=(
     'cachyos-wallpapers'
     'papirus-icon-theme'
     # Display Manager
-    'lightdm'
-    'lightdm-gtk-greeter'
+    'ly'
     # You need this to run X11 apps on XFWL
     'xorg-xwayland'
 )

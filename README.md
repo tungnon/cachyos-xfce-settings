@@ -36,8 +36,7 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 - xfce4-terminal
 - xfconf
 - xfdesktop
-- xfwm4
-- **xfwl4 (soon!)**
+- **xfwl4 (soon!)** - replacing xfwm once its ready
 ### Thunar Stuff
 - thunar
 - thunar-volman
@@ -75,7 +74,6 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 - cachyos-wallpapers
 - papirus-icon-theme
 ### Display Manager
-- lightdm
-- lightdm-gtk-greeter
+- ly
 ### You need this to run X11 apps on XFWL
 - xorg-xwayland
