@@ -14,12 +14,6 @@ default xfce themes, icons, and cursor are still shipped by they won't be presen
 - icon theme: **papirus-dark** - papirus-light and papirus are also available
 - cursor: **bibata-modern-ice** - bibata-modern-classic is also available
 
-## Additional changes
-Some minor changes are applied to improve QoL by default
-
-## Limit
-lightdm stays untouched because that thing can be fragile but users are free to config it easily with`lightdm-gtk-greeter-setting` GUI
-
 ## To-Do-List
 - testing on real hardware for possible edge cases
 - waiting for xfwl integration on upstream arch
@@ -62,10 +56,6 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 ## Optional Dependencies
 **ISO INSTALL WILL HAVE THESE SHIPPED BY DEFAULT**
 Feel free to replace/remove any of these if needed
-### XFCE Plugins
-```
-sudo pacman -S xfce4-whiskermenu-plugin xfce4-docklike-plugin xfce4-pulseaudio-plugin xfce4-xkb-plugin
-```
 ### Default XFCE Apps
 ```
 sudo pacman -S xfce4-terminal xfce4-screenshooter xfce4-screensaver xfce4-taskmanager ristretto parole mousepad mugshot
