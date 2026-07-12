@@ -20,6 +20,9 @@ default xfce themes, icons, and cursor are still shipped by they won't be presen
 
 ## Hard Dependencies
 **Not installing any of these during the beginning will have config to break**
+
+Make sure to install one of these archiver tools: engrampa, xarchiver or file roller
+
 ### XFCE Packages
 - exo
 - garcon
@@ -55,7 +58,9 @@ default xfce themes, icons, and cursor are still shipped by they won't be presen
 
 ## Optional Dependencies
 **ISO INSTALL WILL HAVE THESE SHIPPED BY DEFAULT**
+
 Feel free to replace/remove any of these if needed
+
 ### Default XFCE Apps
 ```
 sudo pacman -S xfce4-terminal xfce4-screenshooter xfce4-screensaver xfce4-taskmanager ristretto parole mousepad mugshot
@@ -70,7 +75,7 @@ sudo pacman -S xfce4-terminal xfce4-screenshooter xfce4-screensaver xfce4-taskma
 - mugshot
 ### Other apps that belong here
 ```
-sudo pacman -S mate-calc engrampa font-manager network-manager-applet
+sudo pacman -S mate-calc engrampa font-manager
 ```
 - mate-calc
 - engrampa
