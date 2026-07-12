@@ -24,7 +24,8 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 - testing on real hardware for possible edge cases
 - waiting for xfwl integration on upstream arch
 
-## Dependencies
+## Hard Dependencies
+**Not installing any of these during the beginning will have config to break**
 ### XFCE Packages
 - exo
 - garcon
@@ -33,7 +34,6 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 - xfce4-power-manager
 - xfce4-session
 - xfce4-settings
-- xfce4-terminal
 - xfconf
 - xfdesktop
 - **xfwl4 (soon!)** - replacing xfwm once its ready
@@ -42,14 +42,35 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 - thunar-volman
 - tumbler
 - thunar-archive-plugin
-- thunar-media-tags-plugin
 - gvfs
-### XFCE Plugins
+### Plugins
 - xfce4-whiskermenu-plugin
 - xfce4-docklike-plugin
 - xfce4-pulseaudio-plugin
 - xfce4-xkb-plugin
+### Mandatory Fonts
+- noto-fonts   
+### Presentation (Why installing this dots at all)
+- cachyos-wallpapers
+- papirus-icon-theme
+### Others
+- gnome-keyring
+- xorg-xwayland
+- network-manager-applet
+
+
+## Optional Dependencies
+**ISO INSTALL WILL HAVE THESE SHIPPED BY DEFAULT**
+Feel free to replace/remove any of these if needed
+### XFCE Plugins
+```
+sudo pacman -S xfce4-whiskermenu-plugin xfce4-docklike-plugin xfce4-pulseaudio-plugin xfce4-xkb-plugin
+```
 ### Default XFCE Apps
+```
+sudo pacman -S xfce4-terminal xfce4-screenshooter xfce4-screensaver xfce4-taskmanager ristretto parole mousepad mugshot
+```
+- xfce4-terminal
 - xfce4-screenshooter
 - xfce4-screensaver
 - xfce4-taskmanager
@@ -58,22 +79,22 @@ lightdm stays untouched because that thing can be fragile but users are free to 
 - mousepad
 - mugshot
 ### Other apps that belong here
+```
+sudo pacman -S mate-calc engrampa font-manager network-manager-applet
+```
 - mate-calc
 - engrampa
 - font-manager
-- lightdm-gtk-greeter-settings
-- network-manager-applet
+### Bluetooth Stuff
+```
+sudo pacman -S blueman bluez-utils
+```
 - blueman
-## Backends
-- gnome-keyring
-- bluez
 - bluez-utils
-### Only font that would be shipped here
-- noto-fonts             
-### Basic ricing stuff
-- cachyos-wallpapers
-- papirus-icon-theme
 ### Display Manager
+```
+sudo pacman -S ly
+```
 - ly
-### You need this to run X11 apps on XFWL
-- xorg-xwayland
+
+

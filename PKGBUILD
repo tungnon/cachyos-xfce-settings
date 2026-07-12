@@ -9,6 +9,7 @@ license=('GPL')
 makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/heads/develop.tar.gz")
 sha512sums=('SKIP')
+# Not installing any of these will have default configs break
 depends=(
 	# XFCE Packages
 	'exo'
@@ -18,50 +19,51 @@ depends=(
 	'xfce4-power-manager'
 	'xfce4-session'
 	'xfce4-settings'
-	'xfce4-terminal'
 	'xfconf'
 	'xfdesktop'
-	'xfwm4' # will be removed after xfwl is ready
+	'xfwm4' #Placeholder until Arch ships xfwl4
 	# Thunar stuff
 	'thunar'
 	'thunar-volman'
 	'tumbler'
 	'thunar-archive-plugin'
-	'thunar-media-tags-plugin'
 	'gvfs'
-	# XFCE Plugins
+	# Plugins
 	'xfce4-whiskermenu-plugin'
 	'xfce4-docklike-plugin'
 	'xfce4-pulseaudio-plugin'
 	'xfce4-xkb-plugin'
+	# Mandatory Fonts
+	'noto-fonts'
+	# Presentation (Reason to install these dots at all)
+ 	'cachyos-wallpapers'
+ 	'papirus-icon-theme'	
+	# Other Important Stuff
+	'xorg-xwayland'
+	'gnome-keyring' 
+	'network-manager-applet'        
+)
+
+# INSTALL EVERYTHING LISTED HERE DURING ISO INSTALL
+optdepends=(
     # Default XFCE Apps
-    'ristretto'
-    'parole'
-    'mousepad'
-    'xfce4-screenshooter'
-    'xfce4-screensaver'
-    'xfce4-taskmanager'
-    'mugshot'
+    'xfce4-terminal'
+    'xfce4-screenshooter: screenshot tool'
+    'xfce4-screensaver: screensaver'
+    'xfce4-taskmanager: task manager'
+    'ristretto: image viewer'
+    'parole: media viewer'
+    'mousepad: GUI text editor'
+    'mugshot: edit your user icons'
     # Other Apps
-    'mate-calc'
-    'engrampa'
-    'font-manager'
-    'lightdm-gtk-greeter-settings'
-    'network-manager-applet'
-    'blueman'
-    # Network/Bluetooth stuff
-    'gnome-keyring'
-    'bluez'
+    'mate-calc: lightweight calculator'
+    'engrampa: lightweight GUI archiver'
+    'font-manager: managing fonts'
+    # Bluetooth Stuff
+	'blueman: GUI bluetooth manager' 	
     'bluez-utils'
-    # Only font that would be shipped here
-    'noto-fonts'             
-	# Ricing stuff
-    'cachyos-wallpapers'
-    'papirus-icon-theme'
     # Display Manager
-    'ly'
-    # You need this to run X11 apps on XFWL
-    'xorg-xwayland'
+    'ly: temporary login screen until XFCE ships their own'
 )
 
 provides=('cachyos-desktop-settings')
