@@ -90,6 +90,18 @@ sudo pacman -S blueman bluez-utils
 ```
 sudo pacman -S ly
 ```
-- ly
 
+## Bonus: How to use ly
+Go to any TTY `Ctrl+Alt+F2`. After reaching TTY, disable whatever login manager you are using:
+- Plasma: plm
+- GNOME: gdm
+- Cinnamon: lightdm
+- Others: depend but most likely sddm
+```
+sudo systemctl disable --now <current login manager>
+```
+Then enable LY then reboot
+```
+sudo systemctl enable ly@tty7 && reboot
+```
 
